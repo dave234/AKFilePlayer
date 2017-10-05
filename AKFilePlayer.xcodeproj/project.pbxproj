@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103B0562F5328859C1AEC510 /* Pods_AKFilePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F7E79A32E23557A9BFA50B /* Pods_AKFilePlayer.framework */; };
 		55642A5E1F86F088006532A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55642A5D1F86F088006532A6 /* AppDelegate.swift */; };
 		55642A601F86F088006532A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55642A5F1F86F088006532A6 /* ViewController.swift */; };
 		55642A621F86F088006532A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55642A611F86F088006532A6 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D578C02CE6BC28AE86F835C /* Pods-AKFilePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKFilePlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKFilePlayer/Pods-AKFilePlayer.release.xcconfig"; sourceTree = "<group>"; };
 		55642A5A1F86F088006532A6 /* AKFilePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKFilePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55642A5D1F86F088006532A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55642A5F1F86F088006532A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +23,8 @@
 		55642A641F86F088006532A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55642A661F86F088006532A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55642A671F86F088006532A6 /* AKFilePlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AKFilePlayer.entitlements; sourceTree = "<group>"; };
+		7DD3AD0661C59632FBE438A6 /* Pods-AKFilePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKFilePlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKFilePlayer/Pods-AKFilePlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F7E79A32E23557A9BFA50B /* Pods_AKFilePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKFilePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				103B0562F5328859C1AEC510 /* Pods_AKFilePlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +44,8 @@
 			children = (
 				55642A5C1F86F088006532A6 /* AKFilePlayer */,
 				55642A5B1F86F088006532A6 /* Products */,
+				95FCB6FB12D126775DE8A595 /* Pods */,
+				87E94CE3B70B0E9E88890A7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +70,23 @@
 			path = AKFilePlayer;
 			sourceTree = "<group>";
 		};
+		87E94CE3B70B0E9E88890A7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F7E79A32E23557A9BFA50B /* Pods_AKFilePlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95FCB6FB12D126775DE8A595 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DD3AD0661C59632FBE438A6 /* Pods-AKFilePlayer.debug.xcconfig */,
+				0D578C02CE6BC28AE86F835C /* Pods-AKFilePlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -70,9 +94,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55642A6A1F86F088006532A6 /* Build configuration list for PBXNativeTarget "AKFilePlayer" */;
 			buildPhases = (
+				7ABC8441497FD75832005047 /* [CP] Check Pods Manifest.lock */,
 				55642A561F86F088006532A6 /* Sources */,
 				55642A571F86F088006532A6 /* Frameworks */,
 				55642A581F86F088006532A6 /* Resources */,
+				292EC6DC63FE2393C34928DF /* [CP] Embed Pods Frameworks */,
+				E277DBED1BC6545D30ADC59B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +155,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		292EC6DC63FE2393C34928DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AKFilePlayer/Pods-AKFilePlayer-frameworks.sh",
+				"${PODS_ROOT}/AudioKit/macOS/AudioKit.framework",
+				"${PODS_ROOT}/AudioKit/macOS/AudioKitUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKitUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKFilePlayer/Pods-AKFilePlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ABC8441497FD75832005047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AKFilePlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E277DBED1BC6545D30ADC59B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKFilePlayer/Pods-AKFilePlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55642A561F86F088006532A6 /* Sources */ = {
@@ -261,6 +344,7 @@
 		};
 		55642A6B1F86F088006532A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD3AD0661C59632FBE438A6 /* Pods-AKFilePlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AKFilePlayer/AKFilePlayer.entitlements;
@@ -276,6 +360,7 @@
 		};
 		55642A6C1F86F088006532A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D578C02CE6BC28AE86F835C /* Pods-AKFilePlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AKFilePlayer/AKFilePlayer.entitlements;
