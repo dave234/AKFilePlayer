@@ -12,6 +12,8 @@
 		55642A601F86F088006532A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55642A5F1F86F088006532A6 /* ViewController.swift */; };
 		55642A621F86F088006532A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55642A611F86F088006532A6 /* Assets.xcassets */; };
 		55642A651F86F088006532A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55642A631F86F088006532A6 /* Main.storyboard */; };
+		55642A6E1F86FE9A006532A6 /* AKFilePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55642A6D1F86FE9A006532A6 /* AKFilePlayer.swift */; };
+		55642A711F8728FC006532A6 /* counting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55642A701F871D35006532A6 /* counting.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		55642A641F86F088006532A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55642A661F86F088006532A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55642A671F86F088006532A6 /* AKFilePlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AKFilePlayer.entitlements; sourceTree = "<group>"; };
+		55642A6D1F86FE9A006532A6 /* AKFilePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKFilePlayer.swift; sourceTree = "<group>"; };
+		55642A701F871D35006532A6 /* counting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = counting.mp3; sourceTree = "<group>"; };
 		7DD3AD0661C59632FBE438A6 /* Pods-AKFilePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKFilePlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKFilePlayer/Pods-AKFilePlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		A2F7E79A32E23557A9BFA50B /* Pods_AKFilePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKFilePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -60,8 +64,10 @@
 		55642A5C1F86F088006532A6 /* AKFilePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				55642A6D1F86FE9A006532A6 /* AKFilePlayer.swift */,
 				55642A5D1F86F088006532A6 /* AppDelegate.swift */,
 				55642A5F1F86F088006532A6 /* ViewController.swift */,
+				55642A701F871D35006532A6 /* counting.mp3 */,
 				55642A611F86F088006532A6 /* Assets.xcassets */,
 				55642A631F86F088006532A6 /* Main.storyboard */,
 				55642A661F86F088006532A6 /* Info.plist */,
@@ -151,6 +157,7 @@
 			files = (
 				55642A621F86F088006532A6 /* Assets.xcassets in Resources */,
 				55642A651F86F088006532A6 /* Main.storyboard in Resources */,
+				55642A711F8728FC006532A6 /* counting.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55642A6E1F86FE9A006532A6 /* AKFilePlayer.swift in Sources */,
 				55642A601F86F088006532A6 /* ViewController.swift in Sources */,
 				55642A5E1F86F088006532A6 /* AppDelegate.swift in Sources */,
 			);
