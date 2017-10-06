@@ -42,6 +42,26 @@ class ViewController: NSViewController {
             slider.value = player.currentTime / player.duration
         }
         
+//        addSubview(AKButton(title: "Try the long file", callback: { button in
+//            player.stop()
+//
+//
+//
+//            let buffer = player.audioFile!.pcmBuffer
+//
+//            var audioFile: AKAudioFile? = try! AKAudioFile()
+//
+//            let duration = 10.0 * 60.0
+//
+//            let buffers = Int(ceil(duration / player.duration))
+//            for _ in 0..<buffers {
+//                try? audioFile?.write(from: buffer)
+//            }
+//            player.audioFile = try! AKAudioFile(forReading: audioFile!.url)
+//
+//
+//        }))
+        
     }
     
     
